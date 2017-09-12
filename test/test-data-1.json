@@ -1,0 +1,23 @@
+{
+  "target_allocations": {
+    "VUS": 0.35,
+    "VEF": 0.30,
+    "XIC": 0.25,
+    "ZFM": 0.05,
+    "ZCS": 0.05
+  },
+  "portfolio_holdings": {
+    "VUS": 3500,
+    "VEF": 3000,
+    "XIC": 2500,
+    "ZFM": 500,
+    "ZCS": 500
+  },
+  "asset_prices": {
+    "VUS": 1.10,
+    "VEF": 1.20,
+    "XIC": 0.95,
+    "ZFM": 1.05,
+    "ZCS": 1.15,
+  }
+}
