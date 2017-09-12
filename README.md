@@ -15,6 +15,7 @@ BONUS BONUS: Although Wealthsimple can trade fractions of an asset, not all brok
 
 
 ### Specifications
+
 You must create a script in Python3, Ruby, or Javascript. This script should read from a file containing test data like the test cases provided, and the name of the file should be configurable.
 
 The output of the script should be a list of trades generated, formatted like the following example:
@@ -25,3 +26,9 @@ We placed 3 trades:
 2. Sold 45 units of ZFM
 3. Sold 20 units of VUS
 ```
+
+### Submission
+
+Please fork this repository and make a pull request. It's highly recommended you do this before you start, since you're very likely to run out of time if you attempt to do this at the end.
+
+Do include instructions in your pull request, such as how to configure the test filename and how to run your script.
