@@ -13,5 +13,4 @@ for holding_key, holding in data["portfolio_holdings"].items():
         values[holding_key] = asset * holding
 
 print("Target Values")
-for key, target in data["target_allocations"].items():
     
