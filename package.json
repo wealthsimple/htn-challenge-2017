@@ -1,0 +1,26 @@
+{
+  "name": "htn-challenge-2017",
+  "version": "1.0.0",
+  "description": "At Wealthsimple, portfolios have a specified distribution of asset holdings called a `target_allocation`. This allocation is based on the total value of the asset. For example, a 50/50 allocation between asset A and asset B means the total value of all the asset A you hold is equal to the total value of all the asset B you hold.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhengRaymond/htn-challenge-2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhengRaymond/htn-challenge-2017/issues"
+  },
+  "homepage": "https://github.com/ZhengRaymond/htn-challenge-2017#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "lodash": "^4.17.4"
+  }
+}
