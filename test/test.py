@@ -8,14 +8,14 @@ print(obj["target_allocations"])
 
 total = 0
 for asset in obj["target_allocations"]:
-	price = obj["target_asset_prices"][asset]
+	price = obj["asset_prices"][asset]
 	holdings = obj["portfolio_holdings"][asset]
 	total += price * holdings
 
 sells = []
 buys = []
 for asset in obj["target_allocations"]:
-	price = obj["target_asset_prices"][asset]
+	price = obj["asset_prices"][asset]
 	holdings = obj["portfolio_holdings"][asset]
 	current = price * holdings
 	target = obj["target_allocations"][asset] * total
@@ -26,8 +26,8 @@ for asset in obj["target_allocations"]:
 
 i = 1
 for s in sells:
-	print "" + i + ". Sold " + s[1] + " units of " + s[0]
+	print "" + str(i) + ". Sold " + str(int(s[1])) + " units of " + str(s[0])
 	i += 1
 for b in buys:
-	print "" + i + ". Bought " + b[1] + " units of " + b[0]
+	print "" + str(i) + ". Bought " + str(int(b[1])) + " units of " + str(b[0])
 	i += 1
