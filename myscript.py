@@ -23,7 +23,7 @@ def trade(target, portfolio, asset, name):
 	print("We placed {0} trades:".format(len(trade)))
 	trade = sorted(trade, key=lambda x: x[1])
 	for i in range(1, len(trade)+1):
-		print(("{0}. " + "Bought" if trade[i][0] else "Sold" + "{1} units of {2}").format(i, trade[i][1], name[i]))
+		print(("{0}. " + ("Bought" if trade[i-1][0] else "Sold") + " {1} units of {2}").format(i, trade[i-1][1], name[i-1]))
 
 def loadFile(f):
 	f = open(f, "r")
