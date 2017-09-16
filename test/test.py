@@ -1,3 +1,7 @@
+# Works in Python 2
+# Change test-data-1.json below to change the test file.
+# Uses both bonuses.
+
 import json
 import math
 
