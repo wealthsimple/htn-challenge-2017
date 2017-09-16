@@ -26,3 +26,5 @@ def match_ratio(filename):
             # sell
             amount = (values[i] - target_values[i])/assets[keys[i]]
             print("SOLD " + str(amount) + " units of " + keys[i])
+
+match_ratio('test-data-1.json')
