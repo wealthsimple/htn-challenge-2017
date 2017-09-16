@@ -28,6 +28,6 @@ def trade(target, portfolio, asset, name):
 def loadFile(f):
 	f = open(f, "r")
 	j = json.loads(f.read())
-	trade([j["target_allocations"][i] for i in j["target_allocations"]], [j["portfolio_holdings"][i] for i in j["portfolio_holdings"]], [j["asset_prices"][i] for i in j["asset_prices"]], [i for i in j["asset_prices"]])
+	trade([j["target_allocations"][i] for i in j["target_allocations"]], [j["portfolio_holdings"][i] for i in j["portfolio_holdings"]], [j["asset_prices"][i] for i in j["asset_prices"]], [i for i in j["asset_prices"].keys()])
 
 loadFile("test/" + FILE_NAME)
