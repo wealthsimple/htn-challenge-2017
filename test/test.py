@@ -1,4 +1,4 @@
-# Works in Python 2
+# Works in Python 2 and 3
 # Change test-data-1.json below to change the test file.
 # Uses both bonuses.
 
@@ -30,8 +30,8 @@ for asset in obj["target_allocations"]:
 
 i = 1
 for s in sells:
-	print "" + str(i) + ". Sold " + str(int(s[1])) + " units of " + str(s[0])
+	print("" + str(i) + ". Sold " + str(int(s[1])) + " units of " + str(s[0]))
 	i += 1
 for b in buys:
-	print "" + str(i) + ". Bought " + str(int(b[1])) + " units of " + str(b[0])
+	print("" + str(i) + ". Bought " + str(int(b[1])) + " units of " + str(b[0]))
 	i += 1
